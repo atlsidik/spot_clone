@@ -25,6 +25,9 @@ body{
   background-color : #000000;
   padding:24px;
 }
+.sidebar .logo img {
+  width: 130px;
+}
 
 .sidebar .navigation ul {
 	list-style : none;
@@ -156,22 +159,23 @@ align-items :center;
 	width : auto;
 }
 
-.topbar .nav_bar button {
+.topbar .navi_bar button {
  background-color : #ffffff;
  color : #000000;
- font-size : 16px;
- font-weight :boild;
+ font-size : 12px;
+ font-weight :bold;
  padding : 14px 30px;
  border : 0px;
- border-radiius : 40px;
+ border-radius : 40px;
  cursor: pointer;
  margin-left: 20px;
+ letter-spacing : 1px;
 
 }
 
-.topbar .nav_bar button:hover,
-.topbar .nav_bar button:active, 
-.topbar .nav_bar button:focus{
+.topbar .navi_bar button:hover,
+.topbar .navi_bar button:active, 
+.topbar .navi_bar button:focus{
  background-color : #f2f2f2 ;
 }
 
@@ -191,6 +195,10 @@ align-items :center;
 	overflow : hidden;
 	border :10px;
 }
+.playlist .list #book{
+	min-height : 181px;
+}
+
 .playlists .list .item {
 	border : 10px;
 	min-width : 140px;
@@ -202,11 +210,15 @@ align-items :center;
 	 transition : all ease 0.4s;
 	 margin-bottom : 20px;
 }
+.playlist .list #book{
+	min-height : 181px;
+}
 .playlists .list .item :hover{
  background-color : #252525;
 }
 
 .playlists .list .item  img {
+	min-height: 150px;
 	width: 100%;
 	border-radius : 6px;
 	margin-bottom : 10px;
@@ -283,15 +295,16 @@ transform : translateY(-20px);
 
 	.preview  button {
 		position :fixed;
+		
 
-		right : 0;
+		right : 4px;
 		bottom : 5px;
 		background-color : #ffffff;
 		color : #000000;
 		font-size  : 16px;
 		font-weight:bold;
 		padding : 14px 15px;
-		border:0px;
+		border:1px;
 		border-radius : 40px;
 		cursor : pointer;
 
